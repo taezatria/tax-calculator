@@ -1,0 +1,41 @@
+<html>
+<head></head>
+<body>
+  <div>
+    <h1>Tax Calculator</h1>
+  </div>
+
+  <div>
+    <%= form_tag('/calculate', method: 'post') do %>
+    <table>
+      <tbody>
+        <tr>
+          <td>Name : </td>
+          <td><%= text_field_tag(:name) %></td>
+        </tr>
+        <tr>
+          <td>Tax Code : </td>
+          <td><%= text_field_tag(:tax_code) %></td>
+        </tr>
+        <tr>
+          <td>Price : </td>
+          <td><%= text_field_tag(:price) %></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><%= submit_tag("View My Bill") %>
+        </tr>
+      </tbody>
+    </table>
+    <% end %>
+  <div>
+
+  <div id="hasil">
+    <h1>Your Bill</h1>
+  </div>
+  
+  <div id="hasil_raw">
+    <h3>Data Object</h3>
+  </div>
+</body>
+</html>

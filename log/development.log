@@ -10,3 +10,561 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 12ms (Views: 3.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 172.18.0.1 at 2019-05-11 07:51:28 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (9.7ms)
+Completed 200 OK in 58ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 08:54:00 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (16.3ms)
+Completed 200 OK in 91ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 10:27:08 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/tax-calculator/app/controllers/tax_bill_controller.rb:8: syntax error, unexpected '{', expecting keyword_end
+    render :json { object: object }
+                 ^):
+  
+app/controllers/tax_bill_controller.rb:8: syntax error, unexpected '{', expecting keyword_end
+Started GET "/" for 172.18.0.1 at 2019-05-11 10:27:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template tax_bill/tax with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/tax-calculator/app/views"
+):
+  
+app/controllers/tax_bill_controller.rb:4:in `home'
+Started GET "/" for 172.18.0.1 at 2019-05-11 10:28:28 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.1ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 10:29:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.1ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 10:36:30 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (2.6ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 10:36:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (5.1ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 10:37:13 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (3.4ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 10:37:48 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (3.0ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (148.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (12.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (1.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-11 11:19:00.713012"], ["updated_at", "2019-05-11 11:19:00.713012"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (13.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (83.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (1.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "test"], ["created_at", "2019-05-11 11:19:00.851835"], ["updated_at", "2019-05-11 11:19:00.851835"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (9.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (101.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5519932353181896930)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Migrating to CreateItems (20190511112313)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (121.3ms)[0m  [1m[35mCREATE TABLE "items" ("id" bigserial primary key, "name" character varying, "tax_code" integer, "price" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190511112313_create_items.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190511112313"]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (9.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5519932353181896930)[0m
+  ↳ /usr/local/bundle/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/bin/rake:23
+Started GET "/" for 172.18.0.1 at 2019-05-11 11:33:04 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (2.0ms)
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mItem Load (1.2ms)[0m  [1m[34mSELECT  "items".* FROM "items" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mItem Create (57.3ms)[0m  [1m[32mINSERT INTO "items" ("name", "tax_code", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "aaaa"], ["tax_code", 1], ["price", 1000], ["created_at", "2019-05-11 12:21:46.515015"], ["updated_at", "2019-05-11 12:21:46.515015"]]
+  [1m[35m (27.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mItem Create (1.3ms)[0m  [1m[32mINSERT INTO "items" ("name", "tax_code", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "bbbb"], ["tax_code", 2], ["price", 1000], ["created_at", "2019-05-11 12:22:31.081280"], ["updated_at", "2019-05-11 12:22:31.081280"]]
+  [1m[35m (8.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mItem Create (1.4ms)[0m  [1m[32mINSERT INTO "items" ("name", "tax_code", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "cccc"], ["tax_code", 3], ["price", 150], ["created_at", "2019-05-11 12:22:50.856948"], ["updated_at", "2019-05-11 12:22:50.856948"]]
+  [1m[35m (11.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:23:26 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/tax-calculator/app/controllers/tax_bill_controller.rb:39: syntax error, unexpected ',', expecting ')'
+...     if item.price.between? (0,100)
+...                              ^
+/tax-calculator/app/controllers/tax_bill_controller.rb:50: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/tax_bill_controller.rb:39: syntax error, unexpected ',', expecting ')'
+app/controllers/tax_bill_controller.rb:50: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:24:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.4ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:24:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (2.2ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:25:05 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HEkKZQuZrZtlcIVrx3WYPnAF0Wbzrsdbdj2CW+mN0cpWNo93r7c+SGNhFvZ5FYURveomzFBJZXwMITjA8lwBlA==", "name"=>"a", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (2.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:18
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 23.3ms)
+
+
+  
+NoMethodError (undefined method `tax_code' for #<Class:0x00007fe89c064c08>):
+  
+app/controllers/tax_bill_controller.rb:21:in `block in calculate'
+app/controllers/tax_bill_controller.rb:18:in `calculate'
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:31:59 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HEkKZQuZrZtlcIVrx3WYPnAF0Wbzrsdbdj2CW+mN0cpWNo93r7c+SGNhFvZ5FYURveomzFBJZXwMITjA8lwBlA==", "name"=>"a", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:18
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 24.9ms)
+
+
+  
+NoMethodError (undefined method `[]=' for nil:NilClass):
+  
+app/controllers/tax_bill_controller.rb:22:in `block in calculate'
+app/controllers/tax_bill_controller.rb:18:in `calculate'
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:05 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HEkKZQuZrZtlcIVrx3WYPnAF0Wbzrsdbdj2CW+mN0cpWNo93r7c+SGNhFvZ5FYURveomzFBJZXwMITjA8lwBlA==", "name"=>"a", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 29ms (ActiveRecord: 4.3ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:10 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HEkKZQuZrZtlcIVrx3WYPnAF0Wbzrsdbdj2CW+mN0cpWNo93r7c+SGNhFvZ5FYURveomzFBJZXwMITjA8lwBlA==", "name"=>"a", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (4.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 51ms (ActiveRecord: 4.9ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:32 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HEkKZQuZrZtlcIVrx3WYPnAF0Wbzrsdbdj2CW+mN0cpWNo93r7c+SGNhFvZ5FYURveomzFBJZXwMITjA8lwBlA==", "name"=>"a", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 83ms (ActiveRecord: 25.6ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:36:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (8.9ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:38 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHFj/U90uCqt0gY2mi9FlGiPEFBaDmWOAohiWACaGkZSDubv61or+avDlaskT1i7pWDn+vnpx6l4lNjDG0vKGA==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 52ms (ActiveRecord: 1.1ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:40 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHFj/U90uCqt0gY2mi9FlGiPEFBaDmWOAohiWACaGkZSDubv61or+avDlaskT1i7pWDn+vnpx6l4lNjDG0vKGA==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (2.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 51ms (ActiveRecord: 2.2ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:40 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHFj/U90uCqt0gY2mi9FlGiPEFBaDmWOAohiWACaGkZSDubv61or+avDlaskT1i7pWDn+vnpx6l4lNjDG0vKGA==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.0ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 53ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:40 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHFj/U90uCqt0gY2mi9FlGiPEFBaDmWOAohiWACaGkZSDubv61or+avDlaskT1i7pWDn+vnpx6l4lNjDG0vKGA==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 56ms (ActiveRecord: 1.2ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:41 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHFj/U90uCqt0gY2mi9FlGiPEFBaDmWOAohiWACaGkZSDubv61or+avDlaskT1i7pWDn+vnpx6l4lNjDG0vKGA==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 42ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:44 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHFj/U90uCqt0gY2mi9FlGiPEFBaDmWOAohiWACaGkZSDubv61or+avDlaskT1i7pWDn+vnpx6l4lNjDG0vKGA==", "name"=>"aa", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.0ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 45ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:46 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHFj/U90uCqt0gY2mi9FlGiPEFBaDmWOAohiWACaGkZSDubv61or+avDlaskT1i7pWDn+vnpx6l4lNjDG0vKGA==", "name"=>"aa", "tax_code"=>"bb", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 47ms (ActiveRecord: 1.1ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:36:47 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHFj/U90uCqt0gY2mi9FlGiPEFBaDmWOAohiWACaGkZSDubv61or+avDlaskT1i7pWDn+vnpx6l4lNjDG0vKGA==", "name"=>"aa", "tax_code"=>"bb", "price"=>"cc", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+No template found for TaxBillController#calculate, rendering head :no_content
+Completed 204 No Content in 52ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:37:27 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.4ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:37:29 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JmZeYEaSLzOHe757jVz+2dUWyld1nEppGVJDrHHpCAxsGdty4ry84IFqLeYzPOP2GPk9/dZ76E5jTvk3ajjYUg==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.9ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+Completed 200 OK in 54ms (Views: 1.4ms | ActiveRecord: 16.7ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:38:19 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/tax-calculator/app/controllers/tax_bill_controller.rb:46: syntax error, unexpected '=', expecting keyword_end
+    render :json = result
+                 ^):
+  
+app/controllers/tax_bill_controller.rb:46: syntax error, unexpected '=', expecting keyword_end
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:38:28 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JmZeYEaSLzOHe757jVz+2dUWyld1nEppGVJDrHHpCAxsGdty4ry84IFqLeYzPOP2GPk9/dZ76E5jTvk3ajjYUg==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 5.9ms)
+
+
+  
+ArgumentError ('{"type"=>"Food and Beverage", "refundable"=>"Yes", "tax_code"=>1, "name"=>"aaaa", "price"=>1000, "tax"=>100.0, "amount"=>1100.0}' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+  
+app/controllers/tax_bill_controller.rb:46:in `calculate'
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:38:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JmZeYEaSLzOHe757jVz+2dUWyld1nEppGVJDrHHpCAxsGdty4ry84IFqLeYzPOP2GPk9/dZ76E5jTvk3ajjYUg==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+Completed 200 OK in 34ms (Views: 0.5ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:40:02 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (5.7ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:40:09 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.0ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:40:18 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#get_taxes as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bV64FCFi4q8aX2rHlN67OUfutFks9UIAIyWX06UvtysnIT0GhUxxfBxO+VoqvqYWigFD848S4CdZOS1Ivv5ndQ==", "name"=>"aaa", "tax_code"=>"1", "price"=>"2000", "commit"=>"View My Bill"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `tax_code' for #<Class:0x0000562d1a8a5f78>):
+  
+app/models/item.rb:9:in `save_item'
+app/controllers/tax_bill_controller.rb:9:in `get_taxes'
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:40:37 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#get_taxes as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bV64FCFi4q8aX2rHlN67OUfutFks9UIAIyWX06UvtysnIT0GhUxxfBxO+VoqvqYWigFD848S4CdZOS1Ivv5ndQ==", "name"=>"aaa", "tax_code"=>"1", "price"=>"2000", "commit"=>"View My Bill"}
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (4.2ms)
+Completed 200 OK in 19ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate" for 172.18.0.1 at 2019-05-11 12:40:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/calculate"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:40:56 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.7ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:40:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yQ+CDQC9zPVRnTK0hkh6fcfWTu/rxJXsqnWsL7Pwig6DcAcfpJNfJleMoSk4KGdSCjm5RUgjN8vQaRa0qCFaUA==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.5ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+Completed 200 OK in 63ms (Views: 1.4ms | ActiveRecord: 18.5ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:41:45 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.4ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:41:52 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#get_taxes as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DOo7Wa8W/DvE2rzRnCWGihvBsah5VlWrGgQN0kgsBItGlb5LCzhv6MLLL0wiRZul1i5GAtqx94xgGLdJU/3U1Q==", "name"=>"aaaa", "tax_code"=>"1", "price"=>"2000", "commit"=>"View My Bill"}
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (3.6ms)
+Completed 200 OK in 19ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mItem Load (1.0ms)[0m  [1m[34mSELECT  "items".* FROM "items" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (8.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:43:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#get_taxes as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9m6hpJS8Vsbwb/TkYq9zQeF30zOB87O9Z603VNGH+l28ESS2MJLFFfZ+Z3ncz25uLJgkmSIUEZodsY3PylYqAw==", "name"=>"abcdef", "tax_code"=>"1", "price"=>"3000", "commit"=>"View My Bill"}
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.1ms)
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:44:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#get_taxes as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9m6hpJS8Vsbwb/TkYq9zQeF30zOB87O9Z603VNGH+l28ESS2MJLFFfZ+Z3ncz25uLJgkmSIUEZodsY3PylYqAw==", "name"=>"abcdef", "tax_code"=>"1", "price"=>"3000", "commit"=>"View My Bill"}
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.2ms)
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:45:12 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#get_taxes as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9m6hpJS8Vsbwb/TkYq9zQeF30zOB87O9Z603VNGH+l28ESS2MJLFFfZ+Z3ncz25uLJgkmSIUEZodsY3PylYqAw==", "name"=>"abcdef", "tax_code"=>"1", "price"=>"3000", "commit"=>"View My Bill"}
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (2.9ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:45:39 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#get_taxes as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9m6hpJS8Vsbwb/TkYq9zQeF30zOB87O9Z603VNGH+l28ESS2MJLFFfZ+Z3ncz25uLJgkmSIUEZodsY3PylYqAw==", "name"=>"abcdef", "tax_code"=>"1", "price"=>"3000", "commit"=>"View My Bill"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/item.rb:10
+  [1m[36mItem Create (0.7ms)[0m  [1m[32mINSERT INTO "items" ("name", "tax_code", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "abcdef"], ["tax_code", 3000], ["price", 3000], ["created_at", "2019-05-11 12:45:39.549291"], ["updated_at", "2019-05-11 12:45:39.549291"]]
+  ↳ app/models/item.rb:10
+  [1m[35m (12.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/item.rb:10
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.1ms)
+Completed 200 OK in 38ms (Views: 3.2ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:45:44 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (3.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2019-05-11 12:45:52 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#home as HTML
+  Rendering tax_bill/tax.html.erb
+  Rendered tax_bill/tax.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:45:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A5wlOUQ0Ru4UJJDtUMsDUH5m7K6WigdGJ38WUA+MmuhJ46Ar4BrVPRI1A3Duqx5/s4kbBDVtpWFdY6zLFF1Ktg==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+Completed 200 OK in 53ms (Views: 1.1ms | ActiveRecord: 14.8ms)
+
+
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[36mItem Load (1.3ms)[0m  [1m[34mSELECT  "items".* FROM "items" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mItem Load (1.0ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mItem Update (0.9ms)[0m  [1m[33mUPDATE "items" SET "tax_code" = $1, "updated_at" = $2 WHERE "items"."id" = $3[0m  [["tax_code", 1], ["updated_at", "2019-05-11 12:46:40.309996"], ["id", 4]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/calculate" for 172.18.0.1 at 2019-05-11 12:46:44 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TaxBillController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A5wlOUQ0Ru4UJJDtUMsDUH5m7K6WigdGJ38WUA+MmuhJ46Ar4BrVPRI1A3Duqx5/s4kbBDVtpWFdY6zLFF1Ktg==", "name"=>"", "tax_code"=>"", "price"=>"", "commit"=>"View My Bill"}
+  [1m[36mItem Load (1.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/controllers/tax_bill_controller.rb:16
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 1.2ms)
+
+
