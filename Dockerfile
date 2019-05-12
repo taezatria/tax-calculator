@@ -6,7 +6,6 @@ COPY Gemfile /tax-calculator/Gemfile
 COPY Gemfile.lock /tax-calculator/Gemfile.lock
 RUN bundle install
 COPY . /tax-calculator
-ENTRYPOINT ["rake", "db:schema:load"]
 
 # Add a script to be executed every time the container starts.
 COPY entrypoint.sh /usr/bin/
@@ -15,4 +14,7 @@ ENTRYPOINT ["entrypoint.sh"]
 EXPOSE 3000
 
 # Start the main process.
+ENTRYPOINT ["rake", "db:create"]
+ENTRYPOINT ["rake", "db:schema:load"]
+ENTRYPOINT ["rake", "db:seed"]
 CMD ["rails", "server", "-b", "0.0.0.0"]
