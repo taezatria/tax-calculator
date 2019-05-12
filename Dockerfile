@@ -14,7 +14,4 @@ ENTRYPOINT ["entrypoint.sh"]
 EXPOSE 3000
 
 # Start the main process.
-ENTRYPOINT ["rake", "db:create"]
-ENTRYPOINT ["rake", "db:schema:load"]
-ENTRYPOINT ["rake", "db:seed"]
 CMD ["rails", "server", "-b", "0.0.0.0"]
