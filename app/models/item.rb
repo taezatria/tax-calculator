@@ -1,16 +1,16 @@
 class Item < ApplicationRecord
 
-  TAX_CODES = { 
-    1 => { "type" => "Food and Beverage", "refundable" => "Yes" },
-  2 => { "type" => "Tobacco", "refundable" => "No" },
-  3 => { "type" => "Entertainment", "refundable" => "No" } }
+  belongs_to :tax_type
+  belongs_to :user
 
   def self.save_item(item)
-    if TAX_CODES.keys.include? item[:tax_code].to_i
+    if TaxType.pluck('code').include?(item[:tax_code].to_i) && User.find(item[:userid].to_i).present?
       new_item = Item.create(
         name: item[:name],
         tax_code: item[:tax_code],
-        price: item[:price]
+        price: item[:price],
+        user_id: item[:userid],
+        tax_type_id: item[:tax_code]
       )
       new_item
     end

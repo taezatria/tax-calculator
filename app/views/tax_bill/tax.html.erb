@@ -6,9 +6,14 @@
   </div>
 
   <div>
-    <%= form_tag('/calculate', method: 'post') do %>
+    <h2>Input Item</h2>
+    <%= form_tag('/saveitem', method: 'post') do %>
     <table>
       <tbody>
+        <tr>
+          <td>User ID : </td>
+          <td><%= text_field_tag(:userid) %></td>
+        </tr>
         <tr>
           <td>Name : </td>
           <td><%= text_field_tag(:name) %></td>
@@ -23,19 +28,29 @@
         </tr>
         <tr>
           <td></td>
-          <td><%= submit_tag("View My Bill") %>
+          <td><%= submit_tag("Save Item") %>
         </tr>
       </tbody>
     </table>
     <% end %>
   <div>
 
-  <div id="hasil">
-    <h1>Your Bill</h1>
-  </div>
-  
-  <div id="hasil_raw">
-    <h3>Data Object</h3>
-  </div>
+  <div>
+    <h2>View Bills</h2>
+    <%= form_tag('/viewbills', method: 'get') do %>
+    <table>
+      <tbody>
+        <tr>
+          <td>User ID : </td>
+          <td><%= text_field_tag(:userid) %></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><%= submit_tag("View My Bills") %>
+        </tr>
+      </tbody>
+    </table>
+    <% end %>
+  <div>
 </body>
 </html>
